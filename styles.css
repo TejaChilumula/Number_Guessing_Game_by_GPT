@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Linear gradient background for the body */
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+}
+
+.game-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* Linear gradient background for the game container */
+    background: linear-gradient(to bottom right, #FDC830, #F37335);
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Linear gradient background for the button */
+    background: linear-gradient(to bottom, #00C9FF, #92FE9D);
+}
+
+button:hover {
+    /* Darker gradient on hover */
+    background: linear-gradient(to bottom, #009ACD, #5FB878);
+}
